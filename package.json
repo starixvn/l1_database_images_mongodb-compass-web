@@ -119,7 +119,7 @@
       "@mongodb-js/reflux-state-mixin": "link:./compass/packages/reflux-state-mixin",
       "@mongodb-js/testing-library-compass": "link:./compass/configs/testing-library-compass",
       "@mongodb-js/tsconfig-compass": "link:./compass/configs/tsconfig-compass",
-      "@mongodb-js/webpack-config-compass": "link:./compass/configs/webpack-config-compass",
+      "@mongodb-js/webpack-config-compass": "link:./compass-ported/webpack-config-compass",
       "bson-transpilers": "link:./compass/packages/bson-transpilers",
       "compass-e2e-tests": "link:./compass/packages/compass-e2e-tests",
       "compass-preferences-model": "link:./compass/packages/compass-preferences-model",
