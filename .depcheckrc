@@ -1,0 +1,26 @@
+ignores:
+ - '@mongodb-js/prettier-config-compass'
+ - '@mongodb-js/tsconfig-compass'
+ - '@types/chai'
+ - '@types/sinon-chai'
+ - 'sinon'
+ - '@testing-library/user-event'
+ - '@types/chai-dom'
+ - '@types/react'
+ - '@types/react-dom'
+# Used in electron-proxy through @ts-check, but depcheckrc can't detect it
+ - '@types/express-http-proxy'
+# Used in webpack config as polyfills, depcheck can't detect that because of `/`
+# at the end of require
+ - 'buffer'
+ - 'events'
+ - 'process'
+ - 'util'
+# web-compatible exports re-exported from local polyfill
+ - '@mongodb-js/devtools-proxy-support'
+# Not explicitly used, but helpful to have them in devDeps to make sure
+# compass-web is on the same version as other package in the monorepo
+ - 'mongodb'
+ - 'bson'
+ignore-patterns:
+ - 'dist'
