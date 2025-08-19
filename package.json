@@ -71,7 +71,7 @@
       "@mongodb-js/compass-collection": "link:./compass/packages/compass-collection",
       "@mongodb-js/compass-components": "link:./compass/packages/compass-components",
       "@mongodb-js/compass-connection-import-export": "link:./compass/packages/compass-connection-import-export",
-      "@mongodb-js/compass-connections": "link:./compass/packages/compass-connections",
+      "@mongodb-js/compass-connections": "link:./compass-ported/compass-connections",
       "@mongodb-js/compass-connections-navigation": "link:./compass/packages/compass-connections-navigation",
       "@mongodb-js/compass-context-menu": "link:./compass/packages/compass-context-menu",
       "@mongodb-js/compass-crud": "link:./compass/packages/compass-crud",
