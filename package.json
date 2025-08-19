@@ -104,7 +104,7 @@
       "@mongodb-js/compass-user-data": "link:./compass/packages/compass-user-data",
       "@mongodb-js/compass-utils": "link:./compass/packages/compass-utils",
       "@mongodb-js/compass-web": "link:./compass/packages/compass-web",
-      "@mongodb-js/compass-welcome": "link:./compass/packages/compass-welcome",
+      "@mongodb-js/compass-welcome": "link:./compass-ported/compass-welcome",
       "@mongodb-js/compass-workspaces": "link:./compass/packages/compass-workspaces",
       "@mongodb-js/connection-form": "link:./compass/packages/connection-form",
       "@mongodb-js/connection-info": "link:./compass/packages/connection-info",
